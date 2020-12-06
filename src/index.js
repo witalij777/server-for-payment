@@ -1,6 +1,6 @@
 const cors = require("cors");
 const express = require("express");
-const stripe = require("stripe")("STRIPE_SECRET_KEY");
+const stripe = require("stripe")("pk_test_51HjscIFJmNHj4wObP3kt1IOmWRFnzoVZKo5MUzsTOdwLpom16jkDZR5IzDwVqOUmiKeorvEccYMZxmgdGr86TMN200SmsETf49");
 const uuid = require("uuid/v4");
 
 const app = express();
